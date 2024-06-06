@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+            margin-block: 1rem;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Add product</h1>
+    
+    <form class="js-form">
+        <input type="text" id="product_name" name="product_name">
+        <input type="text" id="product_price" name="product_price">
+        <div class="js-categories"></div>
+        <input type="file" id="product_image" name="product_image">
+        <button>
+            Yuborish
+        </button>
+    </form>
+
+    <script src="/utils.js"></script>
+    <script src="/addProduct.js"></script>
+</body>
+</html>
