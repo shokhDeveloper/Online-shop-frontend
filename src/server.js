@@ -34,9 +34,3 @@ app.get("/profile", (_, res) => res.render("profile.ejs"));
 app.listen(PORT, () => {
     console.log(`Frontend server is running http://${ip}:${PORT}`);
 });
-
-// admin users
-// admin users/:userId
-// admin products
-// admin add products
-// admin products/:product
